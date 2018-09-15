@@ -2,14 +2,40 @@
 
 # Approches 
 I was thinking about two ideas.
-    1) With Database 
-    2) Without Database as only discount processor
+    - With Database 
+    - Without Database as only discount processor
 
 ### Without Database 
 This also should work if request contain all of the information required for the discount calculations. Just like as calculater with out any DB. 
 
 ### With Database - currently used in app
    I used with database intruction was not clear about the DB. Application  will create USER and PRODUCTS table with preloaded sample datas.
+   
+ ### Without Database 
+ Java 8
+ Spring Boot, JPA and Validation
+ Maven
+ Swagger
+ jUnit
+ 
+ #### How to Run:
+ ```sh
+$ cd ${basepath}/TheRetailStoreDiscounts
+$ ./mvnw install 
+$ ./mvnw spring-boot:run
+```
+   
+Test url : http://localhost:8080/swagger-ui.html
+We can test the service using the above URL.
+
+#### How to Run the TEST:
+ ```sh
+$ cd ${basepath}/TheRetailStoreDiscounts
+$ ./mvnw test
+```
+
+Code coverage URL: /RetailStoreDiscounts/target/jacoco-ut/index.html
+Open above URL in browser to view code coverage
 
 Table structures:
 
