@@ -1,5 +1,17 @@
 # TheRetailStoreDiscounts
 
+# Approches 
+I was thinking about two ideas.
+    - With Database 
+    - Without Database as only discount processor
+
+### Without Database 
+This also should work if request contain all of the information required for the discount calculations. Just like as calculater with out any DB. 
+
+### With Database - currently used in app
+   I used with database intruction was not clear about the DB. Application  will create USER and PRODUCTS table with preloaded sample datas.
+
+Table structures:
 
 <table class="table table-bordered table-hover table-condensed">
 <thead><tr><th colspan=2 title="Field #1">USER_TYPES</th>
