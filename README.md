@@ -2,8 +2,8 @@
 
 # Approches 
 I was thinking about two ideas.
-    - With Database 
-    - Without Database as only discount processor
+    1) With Database 
+    2) Without Database as only discount processor
 
 ### Without Database 
 This also should work if request contain all of the information required for the discount calculations. Just like as calculater with out any DB. 
