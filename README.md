@@ -12,11 +12,11 @@ This also should work if request contain all of the information required for the
    I used with database intruction was not clear about the DB. Application  will create USER and PRODUCTS table with preloaded sample datas.
    
  ### Without Database 
- Java 8
- Spring Boot, JPA and Validation
- Maven
- Swagger
- jUnit
+    Java 8
+    Spring Boot, JPA and Validation
+    Maven
+    Swagger
+    jUnit
  
  #### How to Run:
  ```sh
