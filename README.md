@@ -18,6 +18,9 @@ This also should work if request contain all of the information required for the
     Swagger
     jUnit
  
+ #### Class diagram:
+    https://github.com/kanagarajmk/TheRetailStoreDiscounts/blob/master/uml-class-diagram.jpg
+
  #### How to Run:
  ```sh
 $ cd ${basepath}/TheRetailStoreDiscounts
